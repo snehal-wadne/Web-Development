@@ -1,0 +1,26 @@
+div{
+    height: 200px;
+    width: 200px;
+    background-color: chartreuse;
+    border:2px solid black;
+    position: absolute;
+    left: 500px;
+    top:100px;
+    animation: coloranimate 2s ease-in-out 0s infinite alternate; 
+} 
+
+@keyframes coloranimate{
+    0%{
+        left: 0px;
+        background-color: chartreuse;
+    }
+
+    50%{
+        background-color: red;
+    }
+    100%{
+        right:800px;
+        background-color: blue;
+    }
+}
+

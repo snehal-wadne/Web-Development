@@ -1,0 +1,30 @@
+#box1{
+    height: 100px;
+    width: 100px;
+    background-color: lime;
+    font-size: 20px;;
+}
+
+#box2{
+    height:50px;
+    width:33%;
+    background-color: pink;
+    font-size: 2em;
+    width:2px;
+}
+
+div{
+    height:100px;
+    width:100px;
+    background-color:violet;
+    border:2px solid black;
+    display:inline-block;
+}
+
+#div1{
+    background-image: url("waterfall.jpg");
+    background-size: cover;
+    height: 500px;
+    width:500px;
+}
+

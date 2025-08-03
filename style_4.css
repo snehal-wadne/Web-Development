@@ -1,0 +1,19 @@
+div{
+    height:400px;
+    width:400px;
+    background-color: white;
+    border: 30px solid rgb(21, 255, 0);
+    border-radius: 50%;
+    border-top: 30px solid black;
+    animation:spin 3s linear 0s infinite normal;
+}
+
+@keyframes spin{
+    from{
+        transform: rotate(0deg);
+    }
+
+    to{
+        transform: rotate(360deg);
+    }
+}
